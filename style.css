@@ -12,6 +12,10 @@ body {
     padding: 16px 0;
 }
 
+.padding {
+    padding: 16px;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -62,4 +66,17 @@ body {
 
 .container .section-maintainers .people .person .person-description {
     font-size: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container .section-maintainers .people {
+        display: flex;
+        flex-direction: column;
+    }
+    .container .section-maintainers .people .person {
+        margin-top: 16px;
+        padding: 16px 0;
+        background: #787878;
+        border-radius: 5px;
+    }
 }
