@@ -1,0 +1,65 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.padding-vertical {
+    padding: 16px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.container .header {
+    flex: 1;
+    background: #202020;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.container .header .tag-line {
+    margin-top: 10px;
+    font-size: 14px;
+}
+.container .sub-header {
+    background: #282828;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+.container .section-maintainers {
+    display: flex;
+    flex-direction: column;
+    background:#303030;
+    color: #FFFFFF;
+}
+.container .section-maintainers  .section-description {
+    font-size: 18px;
+}
+
+.container .section-maintainers .people {
+    display: flex;
+    flex-direction: row;
+}
+.container .section-maintainers .people .person {
+    flex: 1;
+}
+
+.container .section-maintainers .people .person .person-pic {
+    max-width: 30%;
+    border-radius: 10px;
+}
+
+.container .section-maintainers .people .person .person-name {
+    font-size: 16px;
+}
+
+.container .section-maintainers .people .person .person-description {
+    font-size: 14px;
+}
